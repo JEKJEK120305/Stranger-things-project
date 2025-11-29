@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: white;
+    padding-bottom: clamp(50px, 10vw, 200px);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#episode {
+    background-image: url("8oYwVx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#strange {
+    font-size: 3.43rem;
+    color: red;
+    text-shadow: 2px 3px 3px black;
+    text-align: center;
+    margin-top: -55px;
+    padding-bottom: 45px;
+}
+
+#character {
+    width: 100%;
+    height: fit-content;
+    background: url(flyover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#char {
+    text-align: center;
+    font-size: 4.37rem;
+    text-shadow: 2px 1px 1px red;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+#overview {
+    background-image: url(suuu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#episode, #character, #overview {
+    margin: 0;
+    padding: 0;
+}
+
+#story {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
+
+#volume {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
+
+#plot {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    text-shadow: 2px 3px 5px black;
+}
+
+#things {
+    font-size: 2.81rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    color: rgb(196, 201, 137);
+}
+
+#btn {
+    display:inline-block;
+    border: none;
+    background-image: url(ststst5.jpg);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.938rem;
+    margin: 0 15px;
+    margin-top: 3%;
+    margin-left: 4%;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+#back {
+    display: flex;
+    border: none;
+    background-color: rgb(128, 13, 163);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.938rem;
+    margin: 0 15px;
+    margin-top: 55px;
+    position: relative;
+    top: -50px;
+    right: -90px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(196, 201, 137);
+    font-size: 3.12rem;
+    text-shadow: 1px 1px 1px white;
+    padding-top: 55px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: auto;
+    max-width: auto;
+    height: auto;
+}
+
+table, th, td {
+    border:2px solid rgba(255, 0, 0, 0.274);
+}
+
+th, td {
+    width: 170px;
+    height: 65px;
+}
+
+th {
+    font-size: 1.875rem;
+    background-color: transparent;
+    text-shadow: 1px 1px 1px rgb(11, 20, 46);
+    text-align: center;
+}
+
+a {
+    color:rgb(228, 224, 15);
+    text-decoration: none;
+}
+
+td {
+    font-size: 1.063rem;
+    color: white;
+    background-color: transparent;
+    text-shadow: 2px 1px 3px black;
+    text-align: center;
+}
+
+td:empty {
+    border: none;
+    background: transparent;
+}
+
+audio {
+    height: 25px;
+    opacity: 0.3;
+}
+
+
+.el {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.elevenhop {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.youngel {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.max {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.maxene {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.mayfield {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.will {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.byers {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.wise {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.mkewh {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.mike {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.wheelmkie {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.lucas {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.sinclair {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.lcssnclr {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.dustin {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.henderson {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+} 
+
+.dusty {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.steve {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.harrington {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.babysitter {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.joyce {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.byersjoy {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.joyjoybyers {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.jim {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.hopperjimmy {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.jhoppersir {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.henry {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.one {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.vecnaaa {
+    display:block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 350px;
+}
+
+.column {
+    float: left;
+    width: 500px;
+    padding: 3px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#character img {
+    margin-top: 120px;
+}
